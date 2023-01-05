@@ -1,0 +1,142 @@
+.user-card {
+    width: 366px;
+    height: 291px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px lightgray;
+    margin: 20px auto;
+}
+
+.user-card-backgroundimg {
+    width: 366px;
+    height: 85px;
+    background-size: cover;
+    background-image: url('/static/images/mountain.jpg');
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+.user-card-content {
+    width: 366px;
+    height: 206px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.user-card-content-avater {
+    text-align: center;
+    width: 70px;
+    height: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.user-card-content-avater>img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.user-card-content-info {
+    width: 296px;
+    height: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.user-card-content-info-name {
+    margin-top: 15px;
+    height: 30px;
+    line-height: 24px;
+    padding: 3px 0 3px 0;
+}
+
+.user-card-content-info-name>span:nth-child(1) {
+    font-size: 16px;
+    color: #fb7299;
+    font-weight: 700;
+    margin-right: 10px;
+    font-family: PingFang SC, HarmonyOS_Medium, Helvetica Neue, Microsoft YaHei, sans-serif;
+}
+
+.user-card-content-info-name>span:nth-child(2) {
+    color: rgb(155, 136, 170);
+    font-size: 12px;
+    font-style: italic;
+}
+
+.user-card-content-info-reputation {
+    height: 18px;
+    font-size: 12px;
+}
+
+.user-card-content-info-reputation>span:nth-child(even) {
+    line-height: 100%;
+    color: #9499A0;
+    margin-right: 10px;
+}
+
+.user-card-content-info-reputation>span:nth-child(odd) {
+    line-height: 100%;
+    color: #18191c;
+}
+
+.user-card-content-info-verify-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gold;
+    display: inline-block;
+}
+
+.user-card-content-info-verify {
+    color: #9499A0;
+    padding-top: 10px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.user-card-content-info-words {
+    color: #9499A0;
+    padding-top: 10px;
+    height: 36px;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.user-card-content-button {
+    height: 32px;
+    padding-top: 16px;
+}
+
+.user-card-content-button>button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.user-card-content-button>button:nth-child(1) {
+    color: white;
+    background-color: #00aeec;
+    border: none;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.user-card-content-button>button:nth-child(2) {
+    background-color: white;
+    border-radius: 4px;
+    color: #61666d;
+    border: solid 1px #61666d;
+}
+
+.user-card-content-button>button:nth-child(2):hover {
+    color: #00aeec;
+    border-color: #00aeec;
+    transition: 600ms;
+}
